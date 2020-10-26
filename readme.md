@@ -28,7 +28,7 @@ If you haven’t known, all programming school and books start their first lesso
 
 First, let’s start things easy by connecting the Screen Tap patch to the If Than Else patch. Next, hover your mouse to the simulator, hold down CTRL + Left Mouse Click (Command + Left Mouse Click for Mac) to activate screen tap. 
 
-![AR](./Image/Hello AR World.png)
+![AR](./Image/Hello_AR_World.png)
 
 Hooray! You have said taken your first step as a programmer!  
 
@@ -96,7 +96,7 @@ Connect the same Screen Ta patch to get the setup above. If you try tapping on t
 
 We are also using Counter to increase number from 0 -5 and using Option Picker to convert number to text. 
 
-3. **Switching Texture**![Switching Texture](./Image/Switching Texture.png)
+3. **Switching Texture**![Switching Texture](./Image/Switching_Texture.png)
 
 We can connect If Then Else patch with almost all data type, as long as both inputs have the same data type. In this example, we are switching between the 2 gradient textures using the same logic as above. You can see the colour of the sphere changes as you tap on the screen of the simulator.
 
