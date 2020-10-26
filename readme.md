@@ -28,7 +28,7 @@ If you haven’t known, all programming school and books start their first lesso
 
 First, let’s start things easy by connecting the Screen Tap patch to the If Than Else patch. Next, hover your mouse to the simulator, hold down CTRL + Left Mouse Click (Command + Left Mouse Click for Mac) to activate screen tap. 
 
-![](./Image/Hello AR World.png)
+![AR](./Image/Hello AR World.png)
 
 Hooray! You have said taken your first step as a programmer!  
 
