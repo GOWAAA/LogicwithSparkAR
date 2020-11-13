@@ -120,7 +120,7 @@ The difference between Equal Exactly and Equals is the Tolerance input. If you s
 
 Using the loop animation patch, we can drive value from 0 – 1, then back to 0 again to observe when Equals patch will output true value.
 
-![and_or_not](C:\Users\Dfait\OneDrive\Boon\AR\AR Spark\Hackathon 2020 Tutorial\LogicwithSparkAR\Image\and_or_not.png)
+![and_or_not](./Image/and_or_not.png)
 
 ·    And patch: Output true value when both Boolean inputs are true
 
@@ -158,7 +158,7 @@ In this second part of the tutorial, I am going demonstrate how you can use the 
 
 Select these 2 objects and uncheck the visible option in the inspector on the right. Next, check and make 3: Random-Generator visible. 
 
-![Random Generator Setup Basic](./Image/Random Generator Setup Basic.png)
+![Random Generator Setup Basic](./Image/Random_Generator_Setup_Basic.png)
 
 This is a one of the most common setups for random generator which you can found online. In our example, it is a simple “What Colour Are You?” with just 1 plane changing colour randomly for 5 seconds before stopping to a final random colour. So what actually happens in all these patches when you tap the screen?
 
