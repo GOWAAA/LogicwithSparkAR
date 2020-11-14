@@ -34,7 +34,7 @@ Hooray! You have said taken your first step as a programmer!
 
 ## Data Type
 
-Understanding the different data types in Spark AR is an important foundation all AR creators need to have. The official Spark AR documentation already has a very detailed introduction of data types, it is highly recommended for you to read it! But in case you are lazy, here is a brief inaccurate summary:
+Understanding the different data types in Spark AR is an important foundation all AR creators need to have. The [official Spark AR documentation](https://sparkar.facebook.com/ar-studio/learn/patch-editor/data-types) already has a very detailed introduction of data types, it is highly recommended for you to read it! But in case you are lazy, here is a brief inaccurate summary:
 
 **Boolean:** True/False, 1/0, Yes/No
 
