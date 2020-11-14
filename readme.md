@@ -208,7 +208,7 @@ To make things simple, we are just going to make simple animation of scaling the
 
 As mentioned, we are going to try achieving this without using Option Picker patch for practice purpose. ![RG4](./Image/RG4.png)
 
-First, we setup what happens when result = 0 using Equal Exactly and If The Else. The Then input is the scale of 1.9, which is the scaling for when result = 0. What we need to do next is just to repeat the whole process, but connect the If Then Else to the Else of previous If The Else patch. 
+First, we setup what happens when result = 0 using Equal Exactly and If Then Else. The Then input is the scale of 1.9, which is the scaling for when result = 0. What we need to do next is just to repeat the whole process, but connect the If Then Else to the "Else" input of previous If The Else patch. 
 
 ![RG5](./Image/RG5.png)
 
@@ -216,7 +216,7 @@ Here we added the equal exactly for when result = 1, and connect it to If Then E
 
 ![RG6](./Image/RG6.png)
 
-When we reach Equal Exactly = 8, there is no need for us to add another Equal Exact to check for result = 9. That’s because if the result is not equal to all numbers from 0 – 8, it must be 9. Hence, at the last If The Else, we just need to put in the Scaling when result = 9 (which is 1) in the Else input. 
+When we reach Equal Exactly = 8, there is no need for us to add another Equal Exact to check for result = 9. That’s because if the result is not equal to all numbers from 0 – 8, it must be 9. Hence, at the last If Then Else, we just need to put in the Scaling when result = 9 (which is 1) in the Else input. 
 
 Next, we just need to trigger the animation patch to start playing. The condition to start the animation is:
 
@@ -238,6 +238,8 @@ Hence, to trigger the animation only at 5 seconds after random generation starts
 
 We connect 1) Switch patch to check if screen is tapped and 2) Not patch to check if 5 seconds has passed after start of randomizing. Only when both conditions are met, the And patch will output a True Boolean to pulse patch (convert Boolean to pulse), which will send a pulse to start playing the animation. 
 
+If the And patch is not used, and only the boolean from Not patch is used to start the animation, the randomiser will start immediately every time you launch the effect. Because Runtime will always start from 0 when effect launch and the condition of less than 5 seconds will be met each time effect is launched. 
+
 # What else can you do with this?
 
 Just by using Equal Exactly and If Then Else, you can
@@ -252,7 +254,7 @@ Just by using Equal Exactly and If Then Else, you can
 
 ·    Many many more!
 
-If you have made it this far and still understand what I have wrote, thank you and well done!! (especially if you are my girlfriend). If you have find this article helpful, do let me know so I know that I can continue to write a second part of this tutorial! 
+If you have made it this far and still understand what I have wrote, thank you and well done!! (especially if you are my girlfriend). If you have find this article helpful, do let me know so I know that I can continue to write a second part of this tutorial! (Making count down timer with logic)
 
 Lastly, to end off this tutorial article, the only way you can stop progressing is when you give up. As long as you put in any effort to create any AR effect with Spark AR, you are making progress! I have made it this far with this same belief so you can do it too!
 
